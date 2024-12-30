@@ -37,7 +37,7 @@ function LoginScreen() {
         setError("Please check your network")
       } else {
         // Something happened in setting up the request that triggered an Error
-        // console.log('Error Message:', error.message);
+        console.log('Error Message:', error.message);
       }
       setIsAuthenticated(false)
     }
